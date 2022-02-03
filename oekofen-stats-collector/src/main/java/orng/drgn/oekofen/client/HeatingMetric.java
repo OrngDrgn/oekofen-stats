@@ -1,4 +1,4 @@
-package orng.drgn.oekofen.repo;
+package orng.drgn.oekofen.client;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;

@@ -1,4 +1,4 @@
-package orng.drgn.oekofen.repo;
+package orng.drgn.oekofen.client;
 
 import java.time.ZonedDateTime;
 
@@ -21,7 +21,7 @@ public class Metric {
 	private String id;
 
 	@DateTimeFormat(iso = ISO.DATE_TIME)
-	private ZonedDateTime timestamp;
+	private String timestamp;
 	
 	private SystemMetric system;
 	private WeatherMetric weather;
